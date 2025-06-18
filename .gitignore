@@ -1,0 +1,42 @@
+# Загальні Node.js файли
+node_modules/
+.env
+.DS_Store # macOS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tgz
+*.log
+
+# Vite.js build output
+/dist
+
+# Frontend-специфічні
+icon-catalog-frontend/node_modules/
+icon-catalog-frontend/dist/
+
+# Backend-специфічні
+icon-catalog-backend/node_modules/
+icon-catalog-backend/dist/
+icon-catalog-backend/*.env
+icon-catalog-backend/coverage/ # Якщо використовуєте тестування з покриттям коду
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.sock
+
+# Test / Debug
+.nyc_output/
+/coverage/
+.grunt
+.lock-wscript
+build/
